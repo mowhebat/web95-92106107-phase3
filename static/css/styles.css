@@ -1,0 +1,37 @@
+body {
+  font: 100% "Comic Sans MS", cursive, sans-serif;
+  background-color: #bcaeaa; }
+
+body #container form#f-search {
+  text-align: left;
+  font: 40% "Comic Sans MS", cursive, sans-serif;
+  margin: auto;
+  border: 3px solid #6e6360;
+  padding: 2%;
+  background-color: #e1cfc9;
+  width: 30%; }
+
+  body #container form#f-search #message {
+    color: #9a3d41; }
+  body #container form#f-search input {
+    font-size: 110%;
+    color: #6e6360;
+    width: 95%;
+    padding: 2%;
+    border: 1px solid #6e6360;
+    margin-bottom: 3%; }
+  body #container form#f-search input:focus {
+    outline: 2px solid #6e6360;
+    box-shadow: 3px 3px 3px #6e6360; }
+  body #container form#f-search input[type="button"] {
+    font-size: 100%;
+    line-height: 150%;
+    width: 22%;
+    border-radius: 20%;
+    font-weight: bold;
+    background-color: white; }
+  body #container form#f-search input[type="button"]:hover {
+    border: 2px solid #6e6360;
+    box-shadow: 4px 4px 4px #6e6360; }
+  body #container form#f-search .centerize {
+    text-align: center; }
